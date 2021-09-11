@@ -1,0 +1,22 @@
+#programs img {
+    margin-top: 35px;
+    width: 75px;
+}
+
+#programs h2 {
+    margin-top: 18px;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#programs h3 {
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#programs p {
+    font-size: 15px;
+}

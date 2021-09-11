@@ -1,0 +1,33 @@
+#updates {
+    margin-top: 40px;
+  }
+  .updates figure {
+    margin-bottom: 30px;
+  }
+   
+  .updates figcaption {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+   
+  .updates img {
+    filter: grayscale(100%) blur(3px);
+    transition: transform 0.5s, filter 0.75s;
+  }
+   
+  .updates a:hover img {
+    transform: scale(1.25);
+    filter: none;
+  }
+  
+  .pb-3 {
+    margin-top: 20px;
+  }
+  
+  .updates h3 {
+      font-size: 15px;
+  }

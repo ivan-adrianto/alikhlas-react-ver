@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Jumbotron } from 'reactstrap';
+import TopMenu from './component/TopMenu';
+import Banner from './component/Banner'
+import Programs from './component/Programs'
+import AboutUs from './component/AboutUs'
+import News from './component/News'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <TopMenu />
+        <Banner />
+        <Programs />
+        <AboutUs />
+        <News />
+      </div>
+    );
+  }
 }
 
 export default App;
